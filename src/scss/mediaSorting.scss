@@ -1,0 +1,16 @@
+@import "./variables";
+
+@media screen and (max-width: $screen-md - 1px) {
+  .sorting {
+    z-index: 2;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: $screen-lg - 1px) {
+  .sorting {
+    top: 90px;
+    right: 60px;
+  }
+}

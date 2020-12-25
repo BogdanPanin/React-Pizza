@@ -1,0 +1,16 @@
+@import "./variables";
+
+@media screen and (max-width: $screen-sm - 1px) {
+  .pizza {
+    left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: $screen-xl - 1px) {
+  .pizza {
+    left: 0px;
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+}

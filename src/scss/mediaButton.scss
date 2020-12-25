@@ -1,0 +1,23 @@
+@import "./variables";
+
+@media screen and (max-width: $screen-sm - 1px) {
+  .button {
+    &_basket {
+      width: 100%;
+      min-width: 100%;
+      border-radius: 0px;
+    }
+    &_orange {
+      width: 150px;
+      height: 50px;
+    }
+    &_back {
+      width: 165px;
+      height: 50px;
+      svg {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+}

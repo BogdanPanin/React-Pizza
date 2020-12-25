@@ -1,0 +1,189 @@
+.button {
+  position: relative;
+  min-width: 100px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-align: center;
+  &_orange {
+    position: absolute;
+    width: 211px;
+    height: 55px;
+    background: #fe5f1e;
+    &:hover {
+      transform: scale(1.01);
+      transition: 0.5s;
+    }
+    p {
+      height: 21px;
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  &_basket {
+    margin: 0;
+    background: #fe5f1e;
+    height: 50px;
+    position: relative;
+    padding: 15px 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      transform: scale(1.01);
+      transition: 0.5s;
+    }
+    .price {
+      position: relative;
+      height: 19px;
+      font-size: 16px;
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 19px;
+      color: #ffffff;
+      margin-right: 13px;
+    }
+    div {
+      position: relative;
+      width: 1px;
+      height: 25px;
+      margin-right: 14px;
+      background: rgba(255, 255, 255, 0.25);
+    }
+    .basket {
+      position: relative;
+      width: 16px;
+      height: 16px;
+      margin-right: 9px;
+    }
+    .number {
+      position: relative;
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 19px;
+      height: 16px;
+      font-size: 16px;
+      color: #ffffff;
+    }
+  }
+  &_outline_white {
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+  }
+  &_outline_orange {
+    background: #ffffff;
+    border: 1px solid #eb5a1e;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    min-width: 132px;
+    z-index: 1;
+    &:hover {
+      background: #fe5f1e;
+      transition: 0.7s;
+    }
+    &:hover .pizza__button__add_white {
+      fill: white;
+    }
+    &:hover p {
+      color: white;
+    }
+  }
+  &_black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 46px;
+    background: #282828;
+    border-radius: 30px;
+    &:hover {
+      transform: scale(1.01);
+      transition: 0.5s;
+    }
+    p {
+      position: absolute;
+      height: 15.33px;
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.015em;
+      color: #ffffff;
+    }
+  }
+  &_circle {
+    background: #ffffff;
+    border: 2px solid #fe5f1e;
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      transition: 0.1s;
+      transform: scale(1.02);
+    }
+  }
+  &_delete {
+    background: #ffffff;
+    border: 2px solid #d7d7d7;
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      border: 2px solid red;
+      transition: 0.5s;
+      transform: scale(1.03);
+    }
+    &:hover .delete {
+      fill: red;
+      transition: 0.5s;
+    }
+  }
+  &_back {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 211px;
+    height: 55px;
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+    border-radius: 30px;
+    &:hover {
+      border: 1px solid #fe5f1e;
+      transition: 0.5s;
+      transform: scale(1.01);
+    }
+    &:hover path {
+      stroke: #fe5f1e;
+      transition: 0.5s;
+    }
+    &:hover p {
+      color: #fe5f1e;
+      transition: 0.5s;
+    }
+    svg {
+      margin-left: 31px;
+      margin-right: 6px;
+    }
+    p {
+      font-family: Proxima Nova;
+      font-size: 16px;
+      color: #cacaca;
+    }
+  }
+}

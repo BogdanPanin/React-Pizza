@@ -1,0 +1,39 @@
+.categories {
+  position: relative;
+  ul {
+    display: inline-flex;
+    position: relative;
+    left: 67px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+    li {
+      cursor: pointer;
+      padding: 13px 30px;
+      background: #f9f9f9;
+      border-radius: 30px;
+      margin-right: 10px;
+      color: #2c2c2c;
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.015em;
+      &:hover {
+        background-color: #282828;
+        color: #fff;
+        transition: 0.5s;
+      }
+
+      &:active {
+        background-color: darken(#f9f9f9, 5%);
+        transition: 0.5s;
+      }
+
+      &.active {
+        background-color: #282828;
+        color: #fff;
+      }
+    }
+  }
+}

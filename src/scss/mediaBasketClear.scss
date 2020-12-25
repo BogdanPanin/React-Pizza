@@ -1,0 +1,15 @@
+@import "./variables";
+
+@media screen and (max-width: $screen-md - 1px) {
+  .basket-clear {
+    &__paragraf {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: $screen-lg - 1px) {
+  .wrapper_basket-clear {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}

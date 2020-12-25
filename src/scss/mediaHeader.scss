@@ -1,0 +1,15 @@
+@import "./variables";
+
+@media screen and (max-width: $screen-sm - 1px) {
+  .header {
+    &__a {
+      left: 30px;
+      top: 15px;
+    }
+    &__button {
+      left: 0px;
+      top: 87px;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.header {
+  height: 137px;
+  &__a {
+    position: relative;
+    width: 316px;
+    height: 48px;
+    left: 77px;
+    top: 49px;
+    display: inline-block;
+  }
+  &__container {
+    position: relative;
+    width: 316px;
+    height: 48px;
+    display: inline-block;
+    h2 {
+      position: absolute;
+      width: 154px;
+      height: 29px;
+      left: 55px;
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 29px;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      color: #181818;
+    }
+    p {
+      position: absolute;
+      height: 19px;
+      left: 52px;
+      top: 29px;
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 19px;
+      color: #7b7b7b;
+    }
+  }
+  &__logo {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 5px;
+  }
+  &__button {
+    position: absolute;
+    height: 50px;
+    right: 38px;
+    top: 52px;
+  }
+  &__line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 137px;
+
+    background: #f7f7f7;
+  }
+}

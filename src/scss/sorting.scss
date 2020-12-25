@@ -1,0 +1,88 @@
+.sorting {
+  position: absolute;
+  width: 224px;
+  height: 19px;
+  right: 48px;
+  top: 53px;
+  display: inline-flex;
+  align-items: center;
+  &__label {
+    position: absolute;
+    width: 224px;
+    height: 19px;
+    display: inline-flex;
+    align-items: center;
+    b {
+      left: 17px;
+      position: absolute;
+      width: 106px;
+      height: 17px;
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 0.875em;
+      line-height: 17px;
+      letter-spacing: 0.015em;
+      color: #2c2c2c;
+    }
+    img {
+      position: absolute;
+      cursor: pointer;
+      &.disable {
+        transform: rotate(0deg);
+        transition: 0.7s;
+      }
+      &.active {
+        transform: rotate(180deg);
+        transition: 0.7s;
+      }
+    }
+    span {
+      position: absolute;
+      width: 93px;
+      height: 17px;
+      left: 131px;
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.015em;
+      color: #fe5f1e;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+  &__setting {
+    position: absolute;
+    width: 132px;
+    height: 136px;
+    right: 0px;
+    top: 40px;
+    background: #ffffff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    padding-top: 13px;
+    z-index: 1;
+    ul {
+      overflow: hidden;
+      li {
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-left: 14px;
+        padding-bottom: 11px;
+        cursor: pointer;
+        &.active,
+        &:hover {
+          background: rgba(254, 95, 30, 0.05);
+        }
+        &.active {
+          font-weight: bold;
+          color: #fe5f1e;
+        }
+      }
+    }
+  }
+}

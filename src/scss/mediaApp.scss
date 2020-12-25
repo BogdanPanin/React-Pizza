@@ -1,0 +1,37 @@
+@import "./variables";
+
+@media screen and (max-width: $screen-xl - 1px) {
+  .wrapper {
+    width: 100%;
+    top: 0px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+  }
+  .content {
+    &__flex {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+  .heading {
+    &_home {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      display: inline-block;
+      margin-bottom: 35px;
+    }
+  }
+}
+@media screen and (max-width: $screen-lg - 1px) {
+  .wrapper {
+    &_basket {
+      position: relative;
+      padding-top: 10px;
+      padding-left: 15px;
+      padding-bottom: 10px;
+      padding-right: 15px;
+    }
+  }
+}

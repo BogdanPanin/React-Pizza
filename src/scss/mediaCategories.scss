@@ -1,0 +1,18 @@
+@import "./variables";
+
+@media screen and (max-width: $screen-md - 1px) {
+  .categories {
+    position: relative;
+    ul {
+      left: 0px;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        padding: 10px 10px;
+      }
+    }
+  }
+}

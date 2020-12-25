@@ -1,0 +1,60 @@
+@import "./variables";
+
+@media screen and (max-width: $screen-md - 1px) {
+  .basket {
+    &__store {
+      height: auto;
+      margin-bottom: 30px;
+    }
+    &__pizza {
+      width: 250px;
+      height: 250px;
+      margin-right: 0px;
+      margin-bottom: 15px;
+    }
+    &__block {
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__article {
+      width: 100%;
+      margin-right: 0px;
+      margin-bottom: 10px;
+      p {
+        text-align: center;
+        width: auto;
+      }
+    }
+    &__buttons {
+      margin-right: 15px;
+    }
+    &__price {
+      width: auto;
+      margin-right: 15px;
+    }
+    &__total {
+      &_quantity {
+        text-align: center;
+      }
+      &_price {
+        margin-top: 10px;
+        position: relative;
+        text-align: center;
+      }
+      &_block {
+        height: auto;
+        display: block;
+      }
+    }
+  }
+}
+@media screen and (max-width: $screen-lg - 1px) {
+  .basket {
+    &__delete {
+      right: 10px;
+      top: 20px;
+      z-index: 1;
+    }
+  }
+}
